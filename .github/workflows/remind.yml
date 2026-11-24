@@ -13,4 +13,5 @@ jobs:
       - run: python remind.py
         env:
           PHONE: ${{ secrets.PHONE }}
-          APIKEY: ${{ secrets.APIKEY }}
+          WA_TOKEN: ${{ secrets.WA_TOKEN }}
+          WA_PHONE_NUMBER_ID: ${{ secrets.WA_PHONE_NUMBER_ID }}
